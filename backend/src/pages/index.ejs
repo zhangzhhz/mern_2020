@@ -11,7 +11,7 @@
     <% anime.forEach(data => { %>
       <ul>
         <li><h1><a href="/<%= data._id %>"><%= data.name %></a></h1></li>
-        <li><img src="<%= data.image %>" alt="<%= data.name %>"></li>
+        <li><img src="<%= data.image %>" width=30 height=30 alt="<%= data.name %>"></li>
         <li><p><%= data.description %></p></li>
       </ul>
     <% }) %>
